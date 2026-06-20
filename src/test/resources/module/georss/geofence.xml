@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:georss="http://www.georss.org/georss">
+    <channel>
+        <title>GeoFence Test Feed</title>
+        <link>http://example.org/</link>
+        <description>Test feed for geo fence filtering</description>
+        <item>
+            <title>Beijing</title>
+            <link>http://example.org/beijing</link>
+            <georss:point>39.9042 116.4074</georss:point>
+        </item>
+        <item>
+            <title>Shanghai</title>
+            <link>http://example.org/shanghai</link>
+            <georss:point>31.2304 121.4737</georss:point>
+        </item>
+        <item>
+            <title>Guangzhou</title>
+            <link>http://example.org/guangzhou</link>
+            <georss:point>23.1291 113.2644</georss:point>
+        </item>
+        <item>
+            <title>NoLocation</title>
+            <link>http://example.org/nolocation</link>
+        </item>
+        <item>
+            <title>Route near Beijing</title>
+            <link>http://example.org/route</link>
+            <georss:line>39.9 116.4 40.0 116.5</georss:line>
+        </item>
+        <item>
+            <title>Area near Shanghai</title>
+            <link>http://example.org/area</link>
+            <georss:polygon>31.2 121.4 31.3 121.5 31.2 121.5 31.2 121.4</georss:polygon>
+        </item>
+    </channel>
+</rss>
